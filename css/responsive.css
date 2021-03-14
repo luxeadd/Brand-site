@@ -1,0 +1,130 @@
+@media (max-width:800px) {
+  .sub-box {
+    flex-wrap: wrap;
+  
+  }
+
+  .sub {
+    width: 100%;
+ 
+  }
+
+  .sub img {
+    width: 38%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .sub p {
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  nav {
+    position: absolute;;
+    width: 100%;
+    top: -200vw;
+    background: rgba(0, 0, 0, 0.678);
+    height: 500px;
+    z-index: 10;
+    transition : 0.5s ;
+  }
+
+  input:checked ~ nav {
+    top: 0;
+    position: fixed;
+  }
+
+  .side-logo {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .side-contents ul li {
+    border-bottom: 1px solid white;
+  
+  }
+  
+  .side-icon {
+    margin-top: 20px;
+  }
+  .open, .close {
+    display: block;
+  }
+
+  .open {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 39px;
+   
+  }
+
+  .mainlogo {
+    display:inline-block; 
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -43.5px;
+  }
+
+  .sub p {
+    margin: 20px 0 50px 0;
+  }
+
+  
+}
+
+@media (max-width:700px) {
+  .company-contents {
+   flex-wrap: wrap;
+    margin: 0 auto
+  }
+  
+  .adress {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  
+  .gmap {
+    width: 100%;
+    position: relative;
+    margin: 0 auto
+  }
+
+  footer {
+    margin: 300px auto 0;
+  }
+}
+
+@media (max-width:500px) {
+  .gallery-wrapper img {
+    width: 100%;
+    vertical-align:bottom;
+  }
+
+  .sub img {
+    width: 70%;
+  }
+
+  .project-item img {
+    width: 100%;
+    
+    margin:  0 0 15px 0;
+    clear: left;
+  }
+
+  .project-item p {
+    padding-left: 0px;
+  }
+  
+
+  .mainlogo {
+    
+  }
+}
